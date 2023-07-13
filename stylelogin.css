@@ -1,0 +1,42 @@
+body {
+    height: 600px;
+    width: 100%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(123, 176, 242, 1) 100%);
+
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.voltar {
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 5px;
+}
+
+.itens-form {
+    margin: 2.5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #344cc5;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
