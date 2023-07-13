@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOGIN</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href="stylelogin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+  </head>
 
-<body style="text-align: center;">
-  <h2 id="cadastro" style="font-size: 30px;">ENTRAR</h2>
-  <form style="font-size: 20px;">
-    <label for="cadastroUsuario">Usuário:</label>
-    <input type="text" id="cadastroUsuario" user="cadastroUsuario" required style="border-radius: 20px;"><br><br>
+  <body style="text-align: center;">
+    <h2 id="cadastro" style="font-size: 30px;">LOGIN</h2>
+    <form style="font-size: 20px;">
+      <label class="itens-form" for="cadastroUsuario">Usuário</label>
+      <input class="itens-form" type="text" id="cadastroUsuario" user="cadastroUsuario" required style="border-radius: 20px;">
 
-    <label for="cadastroSenha">Senha:</label>
-    <input type="password" id="cadastroSenha" name="cadastroSenha" required style="border-radius: 20px;"><br><br>
+      <label class="itens-form" for="cadastroSenha">Senha</label>
+      <input class="itens-form" type="password" id="cadastroSenha" name="cadastroSenha" required style="border-radius: 20px;">
 
-    <input type="submit" value="ENTRAR" style="font-size: 18px;">
-  </form><br>
-  <a href="index.html" style="font-size: 15px;">Voltar para página inicial</a>
-</body>
+      <input class="itens-form" type="submit" value="ENTRAR" style="font-size: 18px;">
+    </form>
+    <a class="voltar" href="index.html" style="font-size: 15px;">Voltar para página inicial</a>
+  </body>
 
 </html>
