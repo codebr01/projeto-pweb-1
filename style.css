@@ -1,28 +1,13 @@
 .cabecalho {
     top: 0;
     width: 100%;
-    background: rgb(34, 193, 195);
+    background-color: rgb(23, 98, 106);
     height: 50px;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(123, 176, 242, 1) 100%);
-    margin: 0;
-    padding: 0;
-    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
-.rodape {
-    height: 150px;
-    width: 100%;
 }
 
 .menu-cabecalho {
@@ -41,6 +26,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
+    color: white;
 
 }
 
@@ -48,4 +34,43 @@ body {
     background-color: #3735a3;
     color: antiquewhite;
     height: 40px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #00d0ff, #0095ff) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+footer {
+    height: 45px;
+    width: 100%;
+    padding: 0;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.menu-rodape {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(23, 98, 106);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-rodape {
+    padding: 5px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
